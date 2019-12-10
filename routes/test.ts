@@ -4,7 +4,7 @@ import { Test } from "../models/test.model"
 
 const testRoutes = Router();
 
-testRoutes.get("/",async (req,res)=>{
+testRoutes.get("/", async (req, res) => {
     let response:any;
     try{
         response = await promesa();
